@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My  Portfolio</title>
+    <style>
+        /* Simple Mobile-Friendly Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 0;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header Section */
+        header {
+            background: #4e73df;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+        
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+        
+        /* Profile Section */
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+            margin-bottom: 15px;
+        }
+        
+        .profile h2 {
+            color: #4e73df;
+            font-size: 1.4rem;
+            margin-bottom: 5px;
+        }
+        
+        .profile p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        
+        /* Student Info Section */
+        .student-info {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .info-section {
+            margin-bottom: 20px;
+        }
+        
+        .info-section h3 {
+            color: #4e73df;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #eee;
+        }
+        
+        .info-item {
+            margin-bottom: 12px;
+            display: flex;
+        }
+        
+        .info-item i {
+            color: #4e73df;
+            margin-right: 10px;
+            width: 24px;
+            text-align: center;
+        }
+        
+        /* Skills Section */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+        
+        .skill {
+            background: #e9ecef;
+            color: #333;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+        
+        /* Contact Button */
+        .contact-btn {
+            display: block;
+            background: #4e73df;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 30px 0;
+            transition: all 0.3s;
+        }
+        
+        .contact-btn:hover {
+            background: #3a5ccc;
+            transform: translateY(-2px);
+        }
+        
+        /* Simple Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .student-info {
+            animation: fadeIn 0.5s ease-out;
+        }
+    </style>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Student Portfolio</h1>
+            <p>Showcasing my education and skills</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="img/img1.jpg" 
+                 alt="Student Photo" class="profile-image">
+            <h2>Lavanya D D</h2>
+            <p>2 nd PUC  | Class of 2024</p>
+        </div>
+        
+        <!-- Student Information -->
+        <div class="student-info">
+            <div class="info-section">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="info-item">
+                    <i class="fas fa-university"></i>
+                    <div>
+                        <strong>P U Collage Kudige</strong><br>
+                        2 nd Year PUC,PCMB<br>
+                        2024 - 2027
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-school"></i>
+                    <div>
+                        <strong>Jawahar Navodaya Vidayalya High School</strong><br>
+                        <br>
+                        2019 - 2024 
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <div class="info-section">
+    <h3><i class="fas fa-trophy"></i> Achievements</h3>
+    <div class="info-item">
+        <i class="fas fa-award"></i>
+        <div>
+            <strong></strong> 
+        </div>
+    </div>
+    <div class="info-item">
+        <i class="fas fa-medal"></i>
+        <div>
+            <strong>NCC Cadet of the Year</strong> - Awarded for outstanding performance and leadership in 2023
+        </div>
+    </div>
+    <div class="info-item">
+        <i class="fas fa-star"></i>
+        <div>
+            <strong>Participation in Republic Day Parade</strong> - Represented the NCC in the national parade in 2022
+        </div>
+    </div>
+</div>
+
+        <a href="lavanya123@gmail.com" class="contact-btn">
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div class="contact-info">
+                    <div class="contact-label">Phone Number</div>
+                    <div class="contact-value">+1 (91) 9741754508 </div>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="contact-info">
+                    
+                    <div class="contact-value"><br>Madlapura Kushalnagar 571232<br>Karnataka,India</div>
+                </div>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
